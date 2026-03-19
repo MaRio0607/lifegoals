@@ -1,0 +1,33 @@
+<div class="container mt-4 text-white">
+
+    <!-- Título -->
+    <div class="bg-danger p-3 rounded mb-4 d-flex justify-content-between">
+        <h5>Add a life goal</h5>
+        <span>Your goal list (2)</span>
+    </div>
+
+    <div class="row">
+
+        <!-- FORMULARIO -->
+        <div class="col-md-5">
+            <p>Use this form below to add a new life goal</p>
+
+            <input type="text" class="form-control mb-3" placeholder="Enter a goal..." />
+
+            <button class="btn btn-success w-50">
+                Add an item
+            </button>
+        </div>
+
+        <!-- LISTA -->
+        <div class="col-md-7">
+            <div class="card bg-danger bg-opacity-75 text-white mb-3 p-3" *ngFor="let goal of goals; let i = index">
+                <button class="btn btn-success mb-2 w-25" (click)="deleteGoal(i)">
+                    delete
+                </button>
+                <p class="mb-0">{{ goal }}</p>
+            </div>
+        </div>
+
+    </div>
+</div>

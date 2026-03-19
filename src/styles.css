@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #7a1c1c;
+}
+
+.container {
+    background-color: #a83232;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+button.btn-success {
+    background-color: #00c853;
+    border: none;
+}
+
+button.btn-success:hover {
+    background-color: #00b248;
+}
+
+input.form-control {
+    border-radius: 5px;
+}
