@@ -12,9 +12,8 @@
         <div class="col-md-5">
             <p>Use this form below to add a new life goal</p>
 
-            <input type="text" class="form-control mb-3" placeholder="Enter a goal..." />
-
-            <button class="btn btn-success w-50">
+            <input type="text" class="form-control mb-3" placeholder="Enter a goal..." [(ngModel)]="goalText" />
+            <button class="btn btn-success w-50" (click)="addGoal()">
                 Add an item
             </button>
         </div>
