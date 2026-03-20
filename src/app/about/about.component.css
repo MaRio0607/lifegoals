@@ -1,0 +1,23 @@
+.about-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.info p {
+    font-size: 28px;
+    margin: 5px 0;
+    font-weight: 300;
+}
