@@ -33,7 +33,7 @@ export class HomeComponent {
     }
   }
 
-  deleteGoal(index: number) {
-    this.goals.splice(index, 1);
+  deleteGoal(goal: any) {
+    this.homeService.deleteItems(goal.id);
   }
 }

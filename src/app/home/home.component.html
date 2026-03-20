@@ -22,7 +22,7 @@
         <div class="col-md-7">
             <div class="card bg-danger bg-opacity-75 text-white mb-3 p-3" *ngFor="let goal of goals; let i = index">
 
-                <button class="btn btn-success mb-2 w-25" (click)="deleteGoal(i)">
+                <button class="btn btn-success mb-2 w-25" (click)="deleteGoal(goal)">
                     delete
                 </button>
 
